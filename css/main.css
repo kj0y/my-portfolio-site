@@ -31,13 +31,14 @@ h3 { /* Portfolio - About Me - Let's Connect */
 
 h4 { /* Project Titles - About Me Intro */
   color: #5C68B2;
-  font-size: 30px;
-  font-size: 2.0vw;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 p {
   color: #5C68B2;
   line-height: 150%;
+  font-size: 16px;
 }
 
 span {
@@ -65,7 +66,7 @@ span {
     background-image: url("../images/hero-image.jpg");
 
     /* Set a specific height */
-    height: 800px;
+    height: 100vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -81,7 +82,7 @@ h1 {
   font-size: 7.0vw;
   color: #9DAAFF;
   letter-spacing: 2px;
-  padding: 15% 0% 5% 0%;
+  padding: 10% 0% 5% 0%;
   text-shadow:
 		-1px -1px 0 #3E2C1F,
 		1px -1px 0 #3E2C1F,
@@ -91,15 +92,23 @@ h1 {
 
 h2 {
   font-size: 38px;
-  font-size: 3.8vw;
-  color: #F4ECDB;
+  font-size: 3.6vw;
+  color: #A9FF83;
   padding-top: 2%;
   line-height: 150%;
 }
 
+.headerBand {
+  border-top: 3px solid #3E2C1F;
+  border-bottom: 3px solid #3E2C1F;
+  background-color: #71533C;
+  opacity: .85;
+}
+
 header {
   text-align: center;
-  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 /* WORK SECTION */
@@ -139,17 +148,22 @@ header {
   border-top: 2px solid #5C68B2;
   border-bottom: 2px solid #FFC9B6;
   background-color: #9DAAFF;
-  color: #FFC9B6;
 }
 
 #about p {
   color: #5C68B2;
   padding-top: 3%;
-  max-width: 100%;
+  max-width: 150%;
+  text-align: left;
 }
 
 #about h3 {
   color: #5C68B2;
+}
+
+#about h4 {
+  text-align: center;
+
 }
 
 #about .row {
@@ -158,15 +172,15 @@ header {
 }
 
 #about .bottomRow {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 2% 4% 3% 4%;
 }
 
 #about img {
   border: 3px solid #5C68B2;
   margin-bottom: 3%;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 /* CONNECT SECTION */
@@ -176,14 +190,15 @@ header {
   color: #FFC9B6;
 }
 
-#connect h3 { /* Let's Connect */
+#connect h3, #connect h4 { /* Let's Connect */
   color: #FFC9B6;
   padding-bottom: 8%;
+  text-align: center;
 }
 
 h5 { /* Hire me - Follow me - Meet me */
   font-size: 30px;
-  font-size: 3.0vw;
+  font-size: 3.0vh;
   padding-bottom: 5%;
 }
 
