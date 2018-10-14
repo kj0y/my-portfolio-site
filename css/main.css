@@ -6,8 +6,6 @@
 
 html {
   font-family: 'Kodchasan', sans-serif;
-  font-size: 100%;
-  font-size: 1.5vw;
 }
 
 a {
@@ -25,20 +23,23 @@ h3 { /* Portfolio - About Me - Let's Connect */
   text-align: center;
   color: #5C68B2;
   font-size: 35px;
-  font-size: 4.75vw;
+  font-size: 5.25vw;
   padding: 3% 0%;
 }
 
 h4 { /* Project Titles - About Me Intro */
   color: #5C68B2;
   font-size: 20px;
+  font-size: 2.5vw;
   line-height: 150%;
+  padding-bottom: 4%;
 }
 
 p {
   color: #5C68B2;
   line-height: 150%;
   font-size: 16px;
+  font-size: 1.75vw;
 }
 
 span {
@@ -66,7 +67,7 @@ span {
     background-image: url("../images/hero-image.jpg");
 
     /* Set a specific height */
-    height: 100vh;
+    height: 125vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -99,8 +100,8 @@ h2 {
 }
 
 .headerBand {
-  border-top: 3px solid #3E2C1F;
-  border-bottom: 3px solid #3E2C1F;
+  border-top: 1px solid #3E2C1F;
+  border-bottom: 1px solid #3E2C1F;
   background-color: #71533C;
   opacity: .85;
 }
@@ -117,18 +118,18 @@ header {
 }
 
 #work img {
-  width: 90%;
-  max-width: 400px;
+  width: 80%;
+  max-width: 500px;
+  margin-left: 20%;
 }
 
-#work .row {
-  margin-left: 5%;
-  margin-right: 5%;
+#work .rightCol {
+  margin-left: 3%;
 }
 
 #work .middleRow {
   border-top: #FFC9B6 dotted 2px;
-  padding: 2% 4% 3% 4%;
+  padding: 4% 4% 4% 4%;
 }
 
 /* ABOUT ME SECTION */
@@ -163,7 +164,7 @@ header {
 
 #about h4 {
   text-align: center;
-
+  max-width: 100%;
 }
 
 #about .row {
@@ -190,15 +191,23 @@ header {
   color: #FFC9B6;
 }
 
-#connect h3, #connect h4 { /* Let's Connect */
+#connect h3 { /* Let's Connect */
   color: #FFC9B6;
-  padding-bottom: 8%;
+  padding-bottom: 4%;
   text-align: center;
+}
+
+#connect h4 {
+  color: #FFC9B6;
+  padding-bottom: 4%;
+  text-align: center;
+  font-size: 32px;
+  font-size: 2.25vw;
 }
 
 h5 { /* Hire me - Follow me - Meet me */
   font-size: 30px;
-  font-size: 3.0vh;
+  font-size: 2.75vw;
   padding-bottom: 5%;
 }
 

@@ -20,7 +20,7 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
@@ -55,8 +55,6 @@ html {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .row {
@@ -64,8 +62,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .no-gutters {

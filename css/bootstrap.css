@@ -582,8 +582,6 @@ pre code {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .row {
@@ -591,8 +589,6 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .no-gutters {
@@ -615,8 +611,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .col {
@@ -4082,8 +4078,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
   }
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -4124,8 +4120,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.0rem;
+    padding-left: 0.0rem;
   }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
